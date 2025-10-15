@@ -18,4 +18,4 @@ Why fastAPI is fast to code ?
 - Seamless integration with Modern Ecosystem (ML/DL library , OAuth , JWT , SQL Alchemy , Docker , Kubernetes ,etc).
 
 
-
+- pip install fastapi uvicorn 
