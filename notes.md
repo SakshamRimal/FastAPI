@@ -7,5 +7,15 @@ Why API?
 ML Perspective of API.
 - In the case of software the common is database but in the case of ML the common is ML/DL model. Same nai ho but instead of database there is model where backend interact with model and api interact with API and services is given by API.
 
+FastAPI - modern . high-performace web framework for buidling APIs with Python using two lirabary - Starlette (manages how your API reviceve req and send response) and Pydantic(it is data validation libarary airako kura chai correct format ma xa ki nai herxa elle).
+
+How it woks?
+- API for machine learning model xa re ani /predict bhanera endpoint xa re hami sangaa then , API code and Webserver hunxa hami sanga. Webserver ma basically there is HTTP request listen kei bhako xa ki xaina herne anid API code bhaneko the API code bhaihalyo. Browser le first ma HTTP request set garxa POST eta uti haru then it is send to Webserver and generate the prediction value and the request is HTTP but our API code is in python and python dont understand HTTP so the client sent http request then it is send to SGI and it convert it into python understandable code and send it to API. ani response garne bela ni SGI auxa python output lai http ma convert garxa and then send it to webserver. SGI (server gateway interface) is the bridge between python and http. Webserver ma request auxa ani tyo SGI ma janxa ja python understandable code ma janxa ani API ma janxa ani tya bata predict call hunxa.
+
+Why fastAPI is fast to code ?
+- Automatic input validation 
+- Auto-generated Interactive Documentation
+- Seamless integration with Modern Ecosystem (ML/DL library , OAuth , JWT , SQL Alchemy , Docker , Kubernetes ,etc).
+
 
 
