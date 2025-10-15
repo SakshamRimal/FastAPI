@@ -19,3 +19,9 @@ Why fastAPI is fast to code ?
 
 
 - pip install fastapi uvicorn 
+- uvicorn main:app --reload
+
+
+HTTP methods - 
+usage of software - static vs dynamic 
+
