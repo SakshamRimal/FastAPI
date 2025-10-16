@@ -31,6 +31,9 @@ Path Parameter and Query Parameter
 - query paramter - aba data ayo tara hamle chai aba additonal feature chaiyeko xa data ko lagi like filtering , sorting , searching and pagination garne aba yo case ma patient to data hamlai sorted chaiyo bhane query parameter use garne. 
 
 
-- pydantic is one of the important libaray in python which is used for data validation. there is no any validation in python where pydantic comes to role.It can be used for complex validation and we can strucutre the data using pydantic.
+- pydantic is one of the important libaray in python which is used for data validation. there is no any validation in python where pydantic comes to role.It can be used for complex validation and we can strucutre the data using pydantic.It runs on 3 steps 
+ - Define a pydantic model 
+ - Raw input ko help le initialize the model 
+ - Pass the validated model object 
 
-- 
+
