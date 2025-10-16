@@ -14,3 +14,4 @@ insert_patient_data('ram' , 25) # correct input
 # so to avoid this we use pydantic
 
 # ya pani sacalable option haina validation ta hunxa but code badi hunxa dherai parameter bhayo bhane sabai ko lagi if else lekhnu parxa ani dherai lamo hunxa.
+
