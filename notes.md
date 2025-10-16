@@ -29,3 +29,8 @@ Path Parameter and Query Parameter
 - path parameter are dynamic segments of o URL path used to identify specific resource. localhost:8000/view/3 yo 3 wala hamle change garna milxa with speicifi resoucre this it is path parameter.Aba yo project ma speicifc patient to data herne use hunxa 
 
 - query paramter - aba data ayo tara hamle chai aba additonal feature chaiyeko xa data ko lagi like filtering , sorting , searching and pagination garne aba yo case ma patient to data hamlai sorted chaiyo bhane query parameter use garne. 
+
+
+- pydantic is one of the important libaray in python which is used for data validation. there is no any validation in python where pydantic comes to role.It can be used for complex validation and we can strucutre the data using pydantic.
+
+- 
