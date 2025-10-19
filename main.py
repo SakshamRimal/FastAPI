@@ -104,12 +104,7 @@ def sort_patients(sort_by: str = Query(... , description='Sort on the basis of h
     
     return sorted_data
     
-# new endpoint named creatder=='desc' else False
-    
-    sorted_data = sorted(data.values() , key=lambda x :x.get(sort_by , 0 ), reverse=False)
-    
-    return sorted_data
-    
+# new endpoint named creatder=='desc' else False  
 # new endpoint named create esma chai POST method use garne ani data pani pathaune so
 # client le server ma request post method use garera garxa then we validate the data using pydantic if the data is validated then we send the data.
 
@@ -180,4 +175,3 @@ def delete_patient(patient_id: str):
 
     return JSONResponse(status_code=200, content={'message':'patient deleted'})
 
-    
