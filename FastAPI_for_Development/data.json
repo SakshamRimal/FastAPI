@@ -1,0 +1,23 @@
+[
+    {
+        "id": "P001",
+        "title": "Jeffery Dahmar",
+        "author": "F. Scott Fitzgerald",
+        "description": "A novel by F. Scott Fitzgerald",
+        "rating": 4
+    },
+    {
+        "id": "string",
+        "title": "Jeffery Dahmar",
+        "author": "F. Scott Fitzgerald",
+        "description": "A novel by F. Scott Fitzgerald",
+        "rating": 4
+    },
+    {
+        "id": "P003",
+        "title": "1984",
+        "author": "George Orwell",
+        "description": "A dystopian novel by George Orwell",
+        "rating": 88
+    }
+]
